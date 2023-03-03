@@ -14,6 +14,20 @@ const Navbar = () => {
         <Link href="/">David Headphones</Link>
       </p>
 
+      <p className="login">
+        <Link href="/auth">Login</Link>
+      </p>
+
+
+
+
+
+      <p className="register">
+        <Link href="/auth">Register</Link>
+      </p>
+      
+      
+
       <button type="button" className="cart-icon" onClick={() => setShowCart(true)}>
         <AiOutlineShopping />
         <span className="cart-item-qty">{totalQuantities}</span>
